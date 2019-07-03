@@ -86,8 +86,7 @@ i:hover {
 
 }
 #technologies {
-    gap: 15px;
-    margin: 0 50px;
+    gap: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -169,6 +168,9 @@ button {
         
         
     }
+    .card {
+        margin-bottom: 10px
+    }
     .text {
         margin:auto;
         margin-bottom: 10px
@@ -200,7 +202,7 @@ button {
         padding: 0
     }
     #projects img {
-        margin-bottom: 5px;
+        
        
     }
     
