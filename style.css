@@ -86,7 +86,8 @@ i:hover {
 
 }
 #technologies {
-    gap: 5px;
+    gap: 15px;
+    margin: 0 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
