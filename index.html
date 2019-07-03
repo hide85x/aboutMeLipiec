@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                aria-selected="true">About me</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+                aria-selected="false">Projects</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="tech-tab" data-toggle="tab" href="#techs" role="tab" aria-controls="techs
+                aria-selected=false">Technologies</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+                aria-selected="false">Contact</a>
+        </li>
+
+
+        <div id="socialSmall">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/shalashaska85x/">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/RebelMonstah">
+                <i class="fab fa-facebook-square fa-2x"></i>
+
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/hide85x?tab=repositories">
+                <i class="fab fa-git fa-2x"></i>
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="mailto:hide85x@gmail.com">
+                <i class="fas fa-envelope-open-text fa-2x"></i>
+            </a>
+        </div>
+    </ul>
+
+
+
+    <div class="tab-content about" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+            <div id="about">
+                <img id="me" src="pics/me.jpg" alt="">
+
+                <div class="jumbotron">
+                    <h1 class="display-4">Hello, world!</h1>
+                    <p class="lead"> My name is Łukasz. I'm easy going, friendly type, with passion
+                        for art, nature and science. For last ten years I was working in the tech crew
+                        in the Contemporary Theater of Wroclaw, my job was to build sets for the plays
+                        and work during performances, but I was also a sound engineer. I create sounds myself,
+                        I write, play and sing in my band called UnAssigned. I'm very curious about the World and I'm
+                        trying
+                        to know as many aspects of its as I can, that's why I found astronomy, philosophy and science in
+                        general,
+                        great ways to understand more, but of course not everything can be read out of the book. Thats
+                        why I travel
+                        and meet people.
+                        During my work for the theater I managed to visit, and live in the places around the world,
+                        I've spent some time in Japan, Chile, Iceland, Thailand and western Europe.
+                        So that's a lil'bit about me.</p>
+                    <hr class="my-4">
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+
+            <div id="projects" class="jumbotron">
+                <h3 class="text">let's talk about what I do</h3>
+                
+                <p class="text">For almost a year, through various crash courses, books,
+                    youtube lectures, IT meetings and my own ways around the code,
+                    I'm trying to learn the best practices for software development,
+                    after this time I'm starting to have more clear vision about what I want
+                    to learn, what tools and technologies would be most useful for me
+                    and what I would like to do with that knowledge in the future projects.
+                    I'm constantly learning web technologies(html, css, java script, jquery, angular, bootstrap), but
+                    with use of Node Js, express,
+                    template engines and MongoDB data bases I discovered a lot more can be done with use of java script!
+
+                </p>
+                
+                <div class="card">
+                    <a target="_blank" class="prolink" href="https://hide85x.github.io/StarWarsSearchEngine/">
+
+                        <img class="card-img-top" src="pics/YodaThumb.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h3>Star Wars Search</h3>
+                            <p>Simple Star Wars themed website that lets you search for
+                                movie characters and episodes,
+                                collects data using AJAX, generates html elements and display it on the site.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a target="_blank" class="prolink" href="https://hide85x.github.io/Scythulator/">
+                        <img class="card-img-top" src="pics/scythThumb.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h3>Scythulator</h3>
+                            <p>My first project. There is a really cool boardgame called Scythe, but when you finish the
+                                game it
+                                takes a lot of time to count your points
+                                ,so I made this website to make it really easy!
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a target="_blank" class="prolink" href="https://hide85x.github.io/BaDumTss/">
+                        <img class="card-img-top" src="pics/badumThumb.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h3>BaDumTss</h3>
+                            <p>For all the musicians out there! This website gives you oportunity to lay down some fat
+                                beats! </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a target="_blank" class="prolink" href="https://hide85x.github.io/roboChores/">
+                        <img class="card-img-top" src="pics/RoboThumb.jpg" alt="Card image cap">
+                    </a>
+                    <div class="card-body">
+                        <h3>Avoid Your Duty Game!</h3>
+                        <p>Super simple website game... avoid the robot!</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a target="_blank" class="prolink" href="https://intense-shelf-54991.herokuapp.com/users/register">
+
+                        <img class="card-img-top" src="pics/NotenGoThumb.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h3>Note'nGo!</h3>
+                            <p>This webapp is using MongoDb database and node js environment to create, register and
+                                login
+                                user,
+                                manage and destroy your every day notes.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a target="_blank" class="prolink" href="https://hide85x.github.io/MyBandUA/">
+                        <img class="card-img-top" src="pics/UaSmalrerThumb.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h3>UnAssigned the Band</h3>
+                            <p>That's website I made for my band, using jquery, java script I build a simple player and
+                                with
+                                bootstrap components carousel
+                                gallery. Check it out, there are some sick tunes and videos ;) </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a target="_blank" class="prolink" href="https://hide85x.github.io/SpeechSynth/">
+                        <img class="card-img-top" src="pics/SpeechSythnThumb.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h3>Speech Synthhhhh</h3>
+                            <p>Speech synthesator, made with jquery and java script, works on Chrome and IE, not fully
+                                supported by Firefox</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a target="_blank" class="prolink" href="https://node-mongo-shop-app.herokuapp.com/">
+                        <img class="card-img-top" src="pics/shopmongo.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h3>Shop</h3>
+                            <p>Online shop that uses; node, express, mongoDb and some npm third party packages</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="tab-pane fade" id="techs" role="tabpanel" aria-labelledby="techs-tab">
+            <!-- my projects -->
+            
+            <div class="jumbotron">
+                
+                <h3 class="text">things I use</h3>
+                    <div id="technologies" >
+                    <img class="projects" src="pics/tech2.png" alt="">
+                    <img class="projects" src="pics/jquery-logo-png--800.gif" alt="">
+                    <img class="projects" src="pics/logo.png" alt="">
+                    <img class="projects" src="pics/node.png" alt="">
+                    <img class="projects" src="pics/mongo.png" alt="">
+                    <img class="projects" src="pics/bootstrap-png-bootstrap-512.png" alt="">
+                </div>
+                </div>
+        </div>
+
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          <div class="jumbotron">
+              <form class="text-center border border-light p-5">
+
+                    <p class="h4 mb-4">Contact me</p>
+                
+                    <!-- Name -->
+                    <input type="text" id="name" class="form-control mb-4" placeholder="Name">
+                
+                    <!-- Email -->
+                    <input type="email" id="email" class="form-control mb-4" placeholder="E-mail">
+                
+                    <!-- Subject -->
+                
+                    <!-- Message -->
+                    <div class="form-group">
+                        <textarea class="form-control rounded-0" id="msg" rows="3" placeholder="Message"></textarea>
+                    </div>
+                
+                    <!-- Copy -->
+                    <!-- Send button -->
+                    <button class="btn btn-info" onclick="sendEmail()" type="submit">Send</button>
+                </form>
+                   
+          </div>
+        </div>
+        <div id="socialSmallContact">
+                <h5>also</h5>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/shalashaska85x/">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/RebelMonstah">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+    
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/hide85x?tab=repositories">
+                    <i class="fab fa-git fa-2x"></i>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="mailto:hide85x@gmail.com">
+                    <i class="fas fa-envelope-open-text fa-2x"></i>
+                </a>
+            </div>
+    </div>
+
+<script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
