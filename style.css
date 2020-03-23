@@ -82,9 +82,7 @@ i:hover {
     /* transform: scale();
     transition: transform 0.5s */
 }
-#projects img:hover {
 
-}
 #technologies {
     gap: 5px;
     display: flex;
