@@ -44,6 +44,7 @@ i:hover {
 }
 #about {
     margin: auto 150px;
+    padding:0 20px;
     display: flex;
     flex-wrap: wrap;
     flex: 1
@@ -70,7 +71,8 @@ i:hover {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    padding:0 25px;
 }
 #projects img {
     padding-bottom: 20px;
@@ -191,10 +193,8 @@ button {
 @media (max-width:500px) {
     .card {
         text-align: center !important ;
-
-        transition: none;
-        background: transparent;
-        box-shadow: none
+        box-shadow: none;
+        border:1px solid black;
     }.jumbotron {
         text-align: center !important;
         margin: 0;
